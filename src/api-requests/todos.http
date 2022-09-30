@@ -1,0 +1,19 @@
+GET http://localhost:3000/todos/
+
+###
+
+GET http://localhost:3000/todos/1
+
+###
+
+POST http://localhost:3000/todos
+Content-Type: application/json
+
+{
+    "todo": "first todo",
+    "description": "hello"
+}
+
+###
+
+PATCH http://localhost:3000/todos/1
